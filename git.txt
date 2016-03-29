@@ -4,7 +4,7 @@ gitのインストール
 プロジェクトの作成
 ディレクトリ作成
 git init
-git add filename 
+git add filename 複数のファイルやディレクトリ（空きディレクトリはだめ） 
 
 git config --global user.email you@yourdomain.example.com
 git config --global user.name "Your Name Comes Here"
@@ -12,3 +12,6 @@ git config --global user.name "Your Name Comes Here"
 git commit -m "first commit"
 git remote add origin https://github.com/rinkeigun/Basic-Usage-of-Git.git
 git push -u origin master
+
+git clone https://github.com/rinkeigun/Basic-Usage-of-Git.git
+git pull https://github.com/rinkeigun/Basic-Usage-of-Git.git
